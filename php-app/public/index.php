@@ -91,7 +91,7 @@ $result = $conn->query("SELECT * FROM notes ORDER BY id DESC");
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Tiêu đề</th>
+                <th>Tiêu   đề</th>
                 <th>Nội dung</th>
                 <th>File đính kèm</th>
                 <th>Thời gian (`created_at`)</th>
