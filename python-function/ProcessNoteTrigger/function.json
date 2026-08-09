@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusQueueTrigger",
+      "direction": "in",
+      "queueName": "notes-queue",
+      "connection": "AzureServiceBusConnectionString"
+    }
+  ]
+}
